@@ -6,8 +6,8 @@ export default function Perfil() {
     const caminhoFoto = "/perfil.jpg";
     return (
         <div className="center-col text-dark">
-            <img src={caminhoFoto} alt="Profile" className="w-48 h-48 rounded-full mb-4" />
-            <h1 className="text-3xl font-bold mb-2 ">{nome}</h1>
+            <img src={caminhoFoto} alt="Profile" className=" w-32 h-32 md:w-48 md:h-48 rounded-full mb-4" />
+            <h1 className=" text-2xl md:text-3xl font-bold mb-2 ">{nome}</h1>
             <p className=" mb-4 text-center font-medium">{descricao}</p>
         </div>
     );

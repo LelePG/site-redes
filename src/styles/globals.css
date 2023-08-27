@@ -15,4 +15,7 @@ body {
   background: -moz-linear-gradient(180deg, hsla(202, 100%, 71%, 1) 0%, hsla(207, 98%, 78%, 1) 85%);
   background: -webkit-linear-gradient(180deg, hsla(202, 100%, 71%, 1) 0%, hsla(207, 98%, 78%, 1) 85%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#6AC9FF", endColorstr="#8FCCFE", GradientType=1);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }

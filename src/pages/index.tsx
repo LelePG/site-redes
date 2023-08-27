@@ -4,8 +4,11 @@ import Perfil from "@/components/Perfil";
 
 export default function Main() {
     return (
-        <div className="center-col h-screen">
-            <div className="bg-white w-1/3 text-center p-8 rounded-2xl drop-shadow-lg center-col">
+        <div className="center-col min-h-screen min-w-fit ">
+            <div className={`bg-white center-col drop-shadow-lg rounded-md md:rounded-2xl text-center
+            p-3 md:p-8 sm:m-3 md:m-8 max-w-screen-md 
+            `}
+            >
                 <Perfil />
                 <ul className="w-full">
                     {lista.map((link) => (
